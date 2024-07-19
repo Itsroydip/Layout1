@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0%;
+    font-family: inter;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #FFCD9E;
+    height: 100vh;
+    display: flex;
+    padding-top: 2vh;        
+}
+
+.left-content{
+   width: 70%;
+   padding-top: 5%;
+   padding-left: 5%;
+}
+
+.left-content > h3{
+    color: #282828;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    line-height: 1.5em;
+}
+
+.left-content > p{
+    color: #484848;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    margin-bottom: 2rem;
+}
+
+#text1{
+    color: #282828;
+    font-weight: 800;
+}
+
+#text2{
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0 3em;
+
+}
+
+#input-email{
+    border: solid;
+    border-width: 0.25rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    height: 4rem;
+    width: 21.5rem;
+    font-weight: 600;
+    color: #888888;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+#button{
+    border-radius: 0.5rem;
+    border: solid black;
+    height: 4rem;
+    width: 13.5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+
+}
+
+.right-content > img{
+    height: 35rem;
+}
+
+
+
+.footer{
+    background-color: #282828;
+    height:50vh;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+
+.left-footer > ul {
+    list-style: none;
+}
+
+.right-footer > ul {
+    list-style: none;
+    text-align: end;
+}
+
+.logos{
+    margin-bottom: 1.5rem;
+}
+
+
