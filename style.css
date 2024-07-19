@@ -103,4 +103,8 @@
     margin-bottom: 1.5rem;
 }
 
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
 
